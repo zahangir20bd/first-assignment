@@ -140,3 +140,22 @@
   font-size: 20px;
   color: #535050;
 }
+
+/* gradients Styles */
+
+.gradients {
+  max-width: 800px;
+  background-image: linear-gradient(
+      to right,
+      rgba(235, 111, 62, 0.6) 60%,
+      rgba(235, 111, 62, 0.6) 0%
+    ),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.gradients-content {
+  padding: 15px;
+  color: white;
+}
