@@ -7,14 +7,15 @@
 }
 
 .btn-primary {
-  height: 60px;
+  height: 50px;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 16px;
   border: 0;
   border-radius: 5px;
   padding: 0px 30px;
-  background-color: #f15b22;
+  background-color: #d13f05;
   color: white;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -22,9 +23,10 @@
 }
 /* Header Styles */
 .header {
+  max-height: 700px;
   background-image: url("../images/banner/banner1.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .header-content {
@@ -154,8 +156,84 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin-bottom: 50px;
 }
+
+.gradients:hover {
+  border: 2px solid #0d99ff;
+}
+
 .gradients-content {
   padding: 15px;
   color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.gradients-content h1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.gradients-content .btn-primary {
+  background-color: white;
+  color: #f15b22;
+}
+
+.gradients-content .btn-primary:hover {
+  background-color: green;
+  color: white;
+}
+
+/* Footer Styles */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px 0px;
+  width: 100%;
+  background-color: #151414;
+}
+
+.future {
+  width: 300px;
+}
+
+.future p {
+  color: white;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.future-title {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.social-link {
+  margin: 20px 0px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.subcribe p {
+  color: white;
+}
+
+#email {
+  height: 40px;
+  width: 250px;
+  background-color: #151414;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding-left: 10px;
+  margin: 20px 0px;
 }
