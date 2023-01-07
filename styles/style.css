@@ -91,14 +91,14 @@
 }
 
 .gallery img {
-  height: 480px;
-  width: 380px;
+  height: 580px;
+  width: 460px;
   position: relative;
 }
 
 .article-title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 35px;
 }
 
